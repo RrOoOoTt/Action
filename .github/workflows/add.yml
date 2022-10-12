@@ -9,6 +9,5 @@ jobs:
    steps:
     - uses: -actions/checkout@v3
    steps:
-    - run: ./add.sh
     - run: echo "hello!"
     
