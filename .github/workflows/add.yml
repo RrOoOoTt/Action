@@ -1,0 +1,14 @@
+name: 'add test'
+
+on:
+  push:
+    branches:
+      - dev
+jobs:
+   runs-on: ubuntu-latest
+   steps:
+    - uses: -actions/checkout@v3
+   steps:
+    - run: ./add.sh
+    - run: echo "hello!"
+    
