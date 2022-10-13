@@ -12,4 +12,4 @@ jobs:
    
    steps:
    - uses: actions/checkout@v3
-   - run: ./add.sh
+   - run: sh add.sh
