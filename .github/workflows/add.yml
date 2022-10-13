@@ -12,4 +12,6 @@ jobs:
    
    steps:
    - run: echo hello
+   - run: gcc -Wall he.c -o he
+   - run: ./he
  
